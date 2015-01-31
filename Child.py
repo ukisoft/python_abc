@@ -9,5 +9,5 @@ class Child(Parent):
         super().__init__(name)
         self.__age = age
 
-    def explain(self):
-        print(self.name, self.__age)
+    def hello(self):
+        print('hello ' + self.name, self.__age)

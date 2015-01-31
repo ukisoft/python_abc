@@ -9,7 +9,8 @@ if __name__ == "__main__":
     parent.explain()  # Bob
 
     child = Child('Bob Jr.', 6)
-    child.explain()  # Bob Jr. 6
+    child.explain()  # Bob Jr.
+    child.hello()  # hello Bob Jr. 6
 
     impl = Implement('John')
     impl.explain()  # JOHN by Impl
